@@ -4,7 +4,7 @@ OculusCoin
 Example implementation for rendering Open Inventor scenes in the Oculus Rift.
 
 
-Prerequisits
+Prerequisites
 ------------
 
 - [Qt5](http://qt-project.org/)
