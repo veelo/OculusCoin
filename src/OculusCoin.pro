@@ -24,6 +24,7 @@ CONFIG(debug, debug|release) {
 # Support for Oculus Rift from SDK.
 ##OVRDIR = C:/SARC/Oculus/ovr_sdk_win_0.3.1_preview/OculusSDK/LibOVR
 ##INCLUDEPATH  += $$OVRDIR/Include
+##INCLUDEPATH  += $$OVRDIR/../3rdParty/glext
 ##win32: LIBS  += -L$$OVRDIR/Lib/Win32/VS2012
 ##CONFIG(debug, debug|release) {
 ##    LIBS     += -llibovrd
@@ -35,6 +36,7 @@ CONFIG(debug, debug|release) {
 # Support for Oculus Rift from Git.
 OVRDIR = C:/SARC/Oculus/git/OculusSDK/LibOVR
 INCLUDEPATH  += $$OVRDIR/Include
+INCLUDEPATH  += $$OVRDIR/../3rdParty/glext
 LIBS     += OculusVR.lib
 CONFIG(debug, debug|release) {
     LIBS  += -L$$OVRDIR/Debug
